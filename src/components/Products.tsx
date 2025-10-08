@@ -48,21 +48,21 @@ const products = [
 
 const Products = () => {
   return (
-    <section id="products" className="py-24 bg-gradient-to-b from-background to-slate-900">
+    <section id="products" className="py-12 md:py-24 bg-gradient-to-b from-background to-slate-900">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16 animate-fade-in">
+        <div className="text-center mb-8 md:mb-16 animate-fade-in">
           <div className="inline-block px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-4">
-            <span className="text-primary font-medium">Продукция</span>
+            <span className="text-primary font-medium text-sm md:text-base">Продукция</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4">
             Наши <span className="text-primary">решения</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Полный спектр высокотехнологичного оборудования для решения задач любой сложности
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {products.map((product, index) => (
             <Card 
               key={index}

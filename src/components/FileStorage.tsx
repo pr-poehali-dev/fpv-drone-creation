@@ -39,21 +39,21 @@ const files = [
 
 const FileStorage = () => {
   return (
-    <section id="files" className="py-24 bg-gradient-to-b from-slate-900 to-background">
+    <section id="files" className="py-12 md:py-24 bg-gradient-to-b from-slate-900 to-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16 animate-fade-in">
+        <div className="text-center mb-8 md:mb-16 animate-fade-in">
           <div className="inline-block px-4 py-2 bg-primary/10 border border-primary/30 rounded-full mb-4">
-            <span className="text-primary font-medium">Документы</span>
+            <span className="text-primary font-medium text-sm md:text-base">Документы</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4">
             Файловое <span className="text-primary">хранилище</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Загрузите необходимые документы, презентации и технические материалы
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+        <div className="grid sm:grid-cols-2 gap-4 md:gap-6 max-w-5xl mx-auto">
           {files.map((file, index) => (
             <Card 
               key={index} 
