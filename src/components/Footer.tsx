@@ -43,7 +43,7 @@ const Footer = () => {
             <h4 className="font-bold mb-4">Контакты</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Info@флайтех.рф</li>
-              <li>+7 (495) 123-45-67</li>
+              <li>@FlyTech59</li>
               <li>Пермь, Маршала Рыбалко, 74</li>
             </ul>
           </div>

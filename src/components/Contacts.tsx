@@ -12,10 +12,10 @@ const contactInfo = [
     link: 'mailto:Info@xn--80aafoeqcb8c.xn--p1ai'
   },
   {
-    icon: 'Phone',
-    title: 'Телефон',
-    value: '+7 (495) 123-45-67',
-    link: 'tel:+74951234567'
+    icon: 'Send',
+    title: 'Telegram',
+    value: '@FlyTech59',
+    link: 'https://t.me/FlyTech59'
   },
   {
     icon: 'MapPin',
@@ -68,8 +68,6 @@ const Contacts = () => {
                   <p>ИНН: 5902068694</p>
                   <p>КПП: 590201001</p>
                   <p>ОГРН: 1245900015943</p>
-                  <p>Р/с: 40702810210001685977</p>
-                  <p>БИК: 044525974 (АО «ТБанк»)</p>
                 </div>
               </CardContent>
             </Card>
