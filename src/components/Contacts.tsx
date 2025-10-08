@@ -8,8 +8,8 @@ const contactInfo = [
   {
     icon: 'Mail',
     title: 'Email',
-    value: 'info@flytech.ru',
-    link: 'mailto:info@flytech.ru'
+    value: 'Info@флайтех.рф',
+    link: 'mailto:Info@xn--80aafoeqcb8c.xn--p1ai'
   },
   {
     icon: 'Phone',
@@ -65,9 +65,7 @@ const Contacts = () => {
               <CardContent className="p-6">
                 <h4 className="text-lg font-bold mb-2">ООО "НПЦ Флайтех"</h4>
                 <div className="space-y-1 text-sm text-muted-foreground">
-                  <p>ИНН: 7700123456</p>
-                  <p>КПП: 770001001</p>
-                  <p>ОГРН: 1234567890123</p>
+                  <p>ИНН: 5902068694</p>
                 </div>
               </CardContent>
             </Card>
