@@ -6,9 +6,13 @@ const Logo = ({ className = "" }: { className?: string }) => {
         <div className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-current"></div>
         <div className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-current"></div>
         <div className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-current"></div>
-        <svg className="w-4 h-4" viewBox="0 0 16 16" fill="none">
-          <circle cx="8" cy="8" r="1.5" fill="currentColor"/>
-          <circle cx="8" cy="8" r="4" stroke="currentColor" strokeWidth="0.5" strokeDasharray="2 1"/>
+        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+          <line x1="12" y1="2" x2="12" y2="8" stroke="currentColor" strokeWidth="1.5"/>
+          <line x1="12" y1="16" x2="12" y2="22" stroke="currentColor" strokeWidth="1.5"/>
+          <line x1="2" y1="12" x2="8" y2="12" stroke="currentColor" strokeWidth="1.5"/>
+          <line x1="16" y1="12" x2="22" y2="12" stroke="currentColor" strokeWidth="1.5"/>
+          <circle cx="12" cy="12" r="2" fill="currentColor"/>
+          <circle cx="12" cy="12" r="5" stroke="currentColor" strokeWidth="1.5"/>
         </svg>
       </div>
       <div className="flex flex-col leading-none">
