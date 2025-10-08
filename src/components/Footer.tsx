@@ -44,14 +44,14 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Info@флайтех.рф</li>
               <li>+7 (495) 123-45-67</li>
-              <li>Москва, Инновационная 15</li>
+              <li>Пермь, Маршала Рыбалко, 74</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-primary/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2022-{currentYear} ООО "НПЦ Флайтех". Все права защищены.
+            © 2022-{currentYear} ООО "НПЦ "ФТ". Все права защищены.
           </p>
           <div className="flex gap-4">
             <a href="#" className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center hover:bg-primary/30 transition-colors">

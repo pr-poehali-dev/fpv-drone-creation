@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: 'MapPin',
     title: 'Адрес',
-    value: 'г. Москва, ул. Инновационная, 15',
+    value: 'г. Пермь, ул. Маршала Рыбалко, д. 74',
     link: '#'
   }
 ];
@@ -63,9 +63,13 @@ const Contacts = () => {
             
             <Card className="bg-gradient-to-br from-primary/10 to-secondary/10 border-primary/30">
               <CardContent className="p-6">
-                <h4 className="text-lg font-bold mb-2">ООО "НПЦ Флайтех"</h4>
+                <h4 className="text-lg font-bold mb-2">ООО "НПЦ "ФТ"</h4>
                 <div className="space-y-1 text-sm text-muted-foreground">
                   <p>ИНН: 5902068694</p>
+                  <p>КПП: 590201001</p>
+                  <p>ОГРН: 1245900015943</p>
+                  <p>Р/с: 40702810210001685977</p>
+                  <p>БИК: 044525974 (АО «ТБанк»)</p>
                 </div>
               </CardContent>
             </Card>
