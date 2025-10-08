@@ -16,14 +16,14 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-              Передовые технологии
+              Беспилотные системы
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-                для FPV дронов
+                на собственных технологиях
               </span>
             </h1>
             
             <p className="text-xl text-muted-foreground max-w-xl">
-              Разработка и производство высокотехнологичной электроники для беспилотных летательных аппаратов, систем РЭБ и наземных станций управления
+              Полный цикл разработки и производства БПЛА различного типа на полностью российских технологиях — от электроники до программного обеспечения
             </p>
             
             <div className="flex flex-wrap gap-4">
