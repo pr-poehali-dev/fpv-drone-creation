@@ -1,4 +1,5 @@
 import Icon from '@/components/ui/icon';
+import Logo from '@/components/Logo';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,11 +9,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                <Icon name="Zap" size={24} className="text-white" />
-              </div>
-              <span className="text-xl font-bold">Флайтех</span>
+            <div className="mb-4">
+              <Logo />
             </div>
             <p className="text-sm text-muted-foreground">
               Передовые технологии для беспилотных систем
