@@ -56,8 +56,8 @@ const Hero = () => {
           <div className="relative animate-slide-in-right">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-secondary/30 rounded-full blur-3xl animate-pulse-glow"></div>
             <img 
-              src="https://cdn.poehali.dev/projects/31c9e6b1-b1f4-476f-99eb-a92d43090641/files/9b653db5-a232-43c1-9c7a-5987cae38369.jpg"
-              alt="FPV дроны Флайтех"
+              src="https://cdn.poehali.dev/projects/31c9e6b1-b1f4-476f-99eb-a92d43090641/files/c88e7641-e507-4c35-892d-b916331d1119.jpg"
+              alt="Боевой FPV дрон Флайтех"
               className="relative rounded-2xl shadow-2xl border border-primary/20"
             />
             
