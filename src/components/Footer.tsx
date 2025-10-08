@@ -51,7 +51,7 @@ const Footer = () => {
         
         <div className="border-t border-primary/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} ООО "НПЦ Флайтех". Все права защищены.
+            © 2022-{currentYear} ООО "НПЦ Флайтех". Все права защищены.
           </p>
           <div className="flex gap-4">
             <a href="#" className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center hover:bg-primary/30 transition-colors">
